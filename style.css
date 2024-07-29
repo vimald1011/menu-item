@@ -4,9 +4,29 @@
 .main-division {
     margin: 20px auto;
     width: 400px;
-    height: 460px;
+    height: 540px;
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+#user-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#user-info img{
+    width: 70px;
+    height: 70px;
+    padding-left: 8px;
+    border-radius: 50%;
+}
+
+#user-name h3{
+    margin: 0px;
+}
+
+#user-name p{
+    margin: 0px;
 }
 
         .second {
@@ -68,4 +88,5 @@
     padding-bottom: 15px;
     padding-left: 8px;
     padding-right: 8px;
+    
 }
