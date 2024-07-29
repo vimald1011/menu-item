@@ -1,0 +1,72 @@
+/* Bootstrap ICON CDN Link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.main-division {
+    margin: 20px auto;
+    width: 400px;
+    height: 460px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+    
+
+        .second {
+            margin: 10px;
+        }
+
+         #item-img {
+            position: relative;
+         }
+
+         #btn-best {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: aquamarine;
+            font-weight: bold;
+            color: #a20404;
+            padding: 3px 8px;
+         }
+
+         #btn-must {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            background-color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 3px 8px;
+            color: #328406;
+            font-weight: bolder;
+            font-size: 1em;
+         }
+
+        #item-img img {
+            width: 380px;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        #item-disc h1 {
+            text-align: center;
+            font-weight: bold;
+            font-family: "Noto Serif", serif;
+            margin-bottom: 5px;
+        }
+
+        #item-disc p {
+            margin-top: 0px;
+            font-family: "Noto Serif", serif;
+            font-weight: 500;
+            font-size: 90%;
+        }
+
+#card-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
